@@ -60,11 +60,11 @@ _Execution Time 0m0.366s_
 
 ```
 go build hello-world.go
-ls -al
+ls -alh
 ```
 
->     -rw-r--r--  1 45950  TCSD001\Domain Users       75 Jul 13 18:33 hello-world.go
->     -rwxr-xr-x  1 45950  TCSD001\Domain Users  2093200 Jul 13 18:34 hello-world
+>     -rw-r--r--   1 45950  TCSD001\Domain Users    75B Jul 17 11:46 hello-world.go
+>     -rwxr-xr-x   1 45950  TCSD001\Domain Users   2.0M Jul 17 12:20 hello-world
 
 ### Execute Go Binary from Working Directory
 
@@ -107,11 +107,11 @@ git log | head -n 5
 ```
 go install github.com/jmcmaster05/golang-hello-world
 tree ~/go/bin | grep golang-hello-world
-ls -al ~/go/bin | grep golang-hello-world
+ls -alh ~/go/bin | grep golang-hello-world
 ```
 
 >     ├── golang-hello-world
->     -rwxr-xr-x  1 45950  TCSD001\Domain Users   2093200 Jul 17 11:56 golang-hello-world
+>     -rwxr-xr-x  1 45950  TCSD001\Domain Users   2.0M Jul 17 12:18 golang-hello-world
 
 ### Execute Go Binary from Bin
 
