@@ -68,6 +68,12 @@ _Execution Time 0m0.013s_
 ```
 go get github.com/jmcmaster05/golang-hello-world
 ```
+
+Repository must have at least one file with extension `.go` or the following error message will appear:
+
+>     can't load package: package github.com/jmcmaster05/golang-hello-world:
+>     no Go files in /Users/45950/go/src/github.com/jmcmaster05/golang-hello-world
+
 ### Compile Binary to Bin
 
 ```
