@@ -4,6 +4,22 @@
 
 * [gobyexample.com - hello world](https://gobyexample.com/hello-world)
 
+## Install GoLang
+
+### Mac
+
+```
+brew install golang
+```
+
+```
+cat << EOF >> ~/.profile
+# --- Go ---
+GOPATH="$HOME/go"
+PATH=$GOPATH/bin:$PATH
+EOF
+```
+
 ## Create Repository
 
 ```
