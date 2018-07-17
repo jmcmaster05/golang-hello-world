@@ -82,13 +82,25 @@ _Execution Time 0m0.013s_
 ### Add Repository to Go Path
 
 ```
-go get github.com/jmcmaster05/golang-hello-world
+go get -v github.com/jmcmaster05/golang-hello-world
 ```
+
+>     github.com/jmcmaster05/golang-hello-world (download)
 
 Repository must have at least one file with extension `.go` or the following error message will appear:
 
 >     can't load package: package github.com/jmcmaster05/golang-hello-world:
 >     no Go files in /Users/45950/go/src/github.com/jmcmaster05/golang-hello-world
+
+```
+cd ~/go/src/github.com/jmcmaster05/golang-hello-world
+git log | head -n 5
+```
+
+>     commit 7ab9e6e434b393a02601f3f998f61e371455195f
+>     Author: Joe McMaster <45950@dfw184016l.containerstore.com>
+>     Date:   Tue Jul 17 12:08:44 2018 -0500
+>         added install golang notes
 
 ### Compile Binary to Bin
 
